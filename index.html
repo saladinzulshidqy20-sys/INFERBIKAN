@@ -99,33 +99,20 @@
                 </div>
                 
                 <div class="hidden lg:flex justify-center relative">
-                    <div class="relative w-80 h-[500px] bg-gradient-to-br from-teal-50 to-white rounded-[2.5rem] shadow-2xl border-8 border-white/20 overflow-hidden flex flex-col items-center p-6 transform rotate-3 hover:rotate-0 transition-transform duration-500">
-                        <div class="absolute top-0 w-full h-32 bg-teal-600 rounded-t-[2rem]"></div>
-                        <div class="z-10 mt-6 bg-white p-4 rounded-2xl shadow-lg mb-6">
-                            <i data-lucide="fish" class="w-16 h-16 text-teal-600"></i>
-                        </div>
-                        <h3 class="z-10 text-2xl font-black text-slate-800 tracking-tight text-center">INFERBIKAN</h3>
-                        <p class="z-10 text-xs text-teal-600 font-bold text-center mt-1 mb-8">PUPUK CAIR FERMENTASI</p>
-                        
-                        <div class="z-10 w-full space-y-3 mb-auto">
-                            <div class="flex items-center gap-3 text-sm text-slate-600 bg-slate-50 p-2 rounded-lg">
-                                <i data-lucide="shield-check" class="w-5 h-5 text-teal-500"></i> Imunitas Ikan
-                            </div>
-                            <div class="flex items-center gap-3 text-sm text-slate-600 bg-slate-50 p-2 rounded-lg">
-                                <i data-lucide="waves" class="w-5 h-5 text-blue-500"></i> Kualitas Air
-                            </div>
-                            <div class="flex items-center gap-3 text-sm text-slate-600 bg-slate-50 p-2 rounded-lg">
-                                <i data-lucide="leaf" class="w-5 h-5 text-green-500"></i> Bahan Herbal
-                            </div>
-                        </div>
-                        
-                        <div class="z-10 w-full bg-teal-50 py-3 rounded-xl text-center border border-teal-100">
-                            <p class="text-xs text-slate-500">Netto</p>
-                            <p class="font-bold text-teal-700">500 ml</p>
+                    <!-- GAMBAR PRODUK UTAMA (HERO) -->
+                    <div class="relative w-80 h-auto p-4 transform rotate-3 hover:rotate-0 transition-transform duration-500">
+                        <div class="bg-white/10 backdrop-blur-md p-2 rounded-[2.5rem] shadow-2xl border border-white/20">
+                            <!-- Ganti URL di src dengan link gambar botol produk Anda -->
+                            <img 
+                                src="https://via.placeholder.com/400x600?text=Gambar+Produk+Inferbikan" 
+                                alt="Botol Produk Inferbikan" 
+                                class="w-full h-auto rounded-[2rem] object-cover"
+                                onerror="this.src='https://images.unsplash.com/photo-1589923188900-85dae523342b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'"
+                            />
                         </div>
                     </div>
                     <!-- Decorative elements -->
-                    <div class="absolute -bottom-6 -right-6 bg-yellow-400 text-yellow-900 font-black px-6 py-3 rounded-full shadow-xl transform -rotate-12 animate-pulse">
+                    <div class="absolute -bottom-6 -right-6 bg-yellow-400 text-yellow-900 font-black px-6 py-3 rounded-full shadow-xl transform -rotate-12 animate-pulse z-30">
                         Hanya Rp 10.000!
                     </div>
                 </div>
@@ -154,7 +141,7 @@
                         <i data-lucide="fish" class="w-8 h-8 text-orange-500"></i>
                     </div>
                     <h3 class="text-xl font-bold text-slate-800 mb-3">Ikan Mudah Sakit</h3>
-                    <p class="text-slate-600">Lingkungan stres memicu bakteri patogen dan parasit seperti Trichodina sp. menyerang ikan.</p>
+                    <p class="text-slate-600">Lingkungan stres memicu bakteri patogen dan parasit menyerang ikan.</p>
                 </div>
                 <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 text-center">
                     <div class="bg-slate-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -172,7 +159,7 @@
                 <div class="relative z-10 md:w-2/3">
                     <h3 class="text-3xl font-bold mb-4">INFERBIKAN Hadir Sebagai Solusi</h3>
                     <p class="text-teal-50 text-lg mb-8 leading-relaxed">
-                        Kami meracik inovasi pupuk cair fermentasi dari <strong>daun pepaya</strong> (mengandung enzim papain) dan <strong>kencur</strong> (mengandung etil p-metoksisinamat antibakteri). Menekan bakteri jahat, mengurai kotoran, dan mempercepat pertumbuhan fitoplankton alami.
+                        Kami meracik inovasi pupuk cair fermentasi dari <strong>daun pepaya</strong> dan <strong>kencur</strong>. Menekan bakteri jahat, mengurai kotoran, dan mempercepat pertumbuhan fitoplankton alami.
                     </p>
                     <div class="flex gap-4">
                         <div class="flex items-center gap-2">
@@ -192,7 +179,6 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <h2 class="text-3xl font-bold text-slate-800 mb-4">Mengapa Memilih INFERBIKAN?</h2>
-                <p class="text-slate-600 text-lg">Keunggulan kompetitif kami dibandingkan produk konvensional di pasaran.</p>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -200,29 +186,29 @@
                     <div class="bg-teal-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
                         <i data-lucide="leaf" class="w-7 h-7 text-teal-600"></i>
                     </div>
-                    <h4 class="text-lg font-bold text-slate-800 mb-2">Herbal Fermented Formula</h4>
-                    <p class="text-slate-600 text-sm">Bebas kimia sintetis. Menggunakan daun pepaya & kencur yang difrmentasi agar senyawa aktif lebih mudah diserap ikan.</p>
+                    <h4 class="text-lg font-bold text-slate-800 mb-2">Herbal Formula</h4>
+                    <p class="text-slate-600 text-sm">Bebas kimia sintetis. Menggunakan daun pepaya & kencur yang difermentasi.</p>
                 </div>
                 <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
                     <div class="bg-blue-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
                         <i data-lucide="shield-check" class="w-7 h-7 text-blue-600"></i>
                     </div>
-                    <h4 class="text-lg font-bold text-slate-800 mb-2">Tingkatkan Imunitas</h4>
-                    <p class="text-slate-600 text-sm">Menekan risiko serangan penyakit dan ektoparasit sehingga ikan tidak mudah stres dan tingkat kematian menurun.</p>
+                    <h4 class="text-lg font-bold text-slate-800 mb-2">Imunitas Ikan</h4>
+                    <p class="text-slate-600 text-sm">Menekan risiko serangan penyakit dan ektoparasit secara alami.</p>
                 </div>
                 <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
                     <div class="bg-green-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
                         <i data-lucide="recycle" class="w-7 h-7 text-green-600"></i>
                     </div>
-                    <h4 class="text-lg font-bold text-slate-800 mb-2">Zero Waste & Blue Economy</h4>
-                    <p class="text-slate-600 text-sm">Menjaga keseimbangan ekosistem perairan. Sisa residu produk bahkan dapat dimanfaatkan sebagai pupuk tanaman.</p>
+                    <h4 class="text-lg font-bold text-slate-800 mb-2">Ramah Lingkungan</h4>
+                    <p class="text-slate-600 text-sm">Menjaga keseimbangan ekosistem perairan dan mendukung ekonomi biru.</p>
                 </div>
                 <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
                     <div class="bg-yellow-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
                         <i data-lucide="circle-dollar-sign" class="w-7 h-7 text-yellow-600"></i>
                     </div>
                     <h4 class="text-lg font-bold text-slate-800 mb-2">Sangat Ekonomis</h4>
-                    <p class="text-slate-600 text-sm">Diciptakan khusus untuk UMKM pembudidaya. Harga jauh lebih terjangkau dibanding probiotik pabrikan besar.</p>
+                    <p class="text-slate-600 text-sm">Harga jauh lebih terjangkau dibanding probiotik pabrikan besar.</p>
                 </div>
             </div>
         </div>
@@ -232,23 +218,23 @@
     <section id="produk" class="py-24 bg-white border-y border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-16 items-center">
-                <!-- Product Image & Price Card -->
-                <div class="bg-slate-50 p-8 md:p-12 rounded-[2rem] border border-slate-200 text-center relative">
-                    <div class="absolute top-6 left-6 bg-teal-600 text-white text-sm font-bold px-3 py-1 rounded-full">
+                <!-- Product Card with REAL IMAGE placeholder -->
+                <div class="bg-slate-50 p-8 md:p-12 rounded-[2rem] border border-slate-200 text-center relative overflow-hidden">
+                    <div class="absolute top-6 left-6 bg-teal-600 text-white text-sm font-bold px-3 py-1 rounded-full z-10">
                         Best Seller
                     </div>
                     
-                    <!-- Minimalist representation of the bottle -->
-                    <div class="mx-auto w-48 h-80 bg-white rounded-3xl shadow-xl border-4 border-slate-100 relative overflow-hidden mb-8 flex flex-col">
-                        <div class="h-12 w-16 bg-green-500 mx-auto rounded-t-lg border-b border-green-700"></div>
-                        <div class="flex-1 w-full flex flex-col items-center justify-center p-4">
-                            <i data-lucide="fish" class="w-12 h-12 text-teal-600 mb-2"></i>
-                            <h3 class="font-black text-xl text-slate-800 tracking-tight">INFERBIKAN</h3>
-                            <p class="text-[10px] text-teal-600 font-bold mb-4">PUPUK CAIR ORGANIK</p>
-                            <div class="w-full bg-teal-50 h-24 rounded-lg mt-auto border border-teal-100 relative overflow-hidden">
-                                <i data-lucide="waves" class="absolute bottom-0 text-teal-200 w-full h-12 opacity-50"></i>
-                                <div class="absolute bottom-2 w-full text-center text-xs font-bold text-teal-800">Netto: 500 ml</div>
-                            </div>
+                    <!-- AREA UNTUK GAMBAR PRODUK ASLI -->
+                    <div class="mx-auto w-full max-w-[280px] mb-8 group">
+                        <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white transition-transform duration-300 group-hover:scale-105">
+                            <!-- Ganti URL di src dengan link gambar botol produk Anda -->
+                            <img 
+                                src="https://via.placeholder.com/400x600?text=Botol+Inferbikan" 
+                                alt="Inferbikan" 
+                                class="w-full h-auto object-cover"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                            <div class="absolute bottom-4 left-0 w-full text-white font-bold text-sm">Netto: 500 ml</div>
                         </div>
                     </div>
 
@@ -265,15 +251,13 @@
                 <!-- Instruction Steps -->
                 <div>
                     <h2 class="text-3xl font-bold text-slate-800 mb-4">Cara Penggunaan Praktis</h2>
-                    <p class="text-slate-600 text-lg mb-8">Dosis tepat untuk hasil yang optimal pada kolam budidaya Anda.</p>
-                    
                     <div class="space-y-8">
                         <div class="flex gap-4">
                             <div class="flex-shrink-0 w-12 h-12 rounded-full bg-teal-100 flex items-center justify-center font-bold text-teal-700 text-xl border-4 border-white shadow-sm">1</div>
                             <div>
-                                <h4 class="text-xl font-bold text-slate-800 mb-2">Aplikasi Pertama (Persiapan Kolam)</h4>
+                                <h4 class="text-xl font-bold text-slate-800 mb-2">Persiapan Kolam</h4>
                                 <p class="text-slate-600 bg-slate-50 p-4 rounded-xl border border-slate-100">
-                                    <strong>Kocok sebelum digunakan.</strong> Gunakan <strong>15 tutup botol</strong> lalu larutkan dalam 2 liter air bersih, aduk hingga tercampur merata. Tebarkan secara merata pada kolam berkapasitas <strong>500 liter air</strong>.
+                                    Gunakan <strong>15 tutup botol</strong> larutkan dalam 2 liter air. Tebarkan untuk 500 liter air kolam sebelum tebar benih.
                                 </p>
                             </div>
                         </div>
@@ -281,24 +265,10 @@
                         <div class="flex gap-4">
                             <div class="flex-shrink-0 w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center font-bold text-blue-700 text-xl border-4 border-white shadow-sm">2</div>
                             <div>
-                                <h4 class="text-xl font-bold text-slate-800 mb-2">Penggunaan Rutin Lanjutan</h4>
+                                <h4 class="text-xl font-bold text-slate-800 mb-2">Perawatan Rutin</h4>
                                 <p class="text-slate-600 bg-slate-50 p-4 rounded-xl border border-slate-100">
-                                    <strong>Kocok sebelum digunakan.</strong> Gunakan <strong>2 tutup botol</strong> larutkan dalam 1/2 liter air bersih. Tebarkan secara merata di kolam secara rutin setiap <strong>dua minggu sekali</strong> per 100 liter air.
+                                    Gunakan <strong>2 tutup botol</strong> per 100 liter air setiap <strong>dua minggu sekali</strong> untuk menjaga kualitas air.
                                 </p>
-                            </div>
-                        </div>
-
-                        <div class="bg-yellow-50 p-4 rounded-xl border border-yellow-200 flex gap-4 mt-8">
-                            <div class="pt-1">
-                                <i data-lucide="shield-check" class="w-6 h-6 text-yellow-600"></i>
-                            </div>
-                            <div class="text-sm text-yellow-800">
-                                <p class="font-bold mb-1">Perhatian & Penyimpanan:</p>
-                                <ul class="list-disc pl-4 space-y-1 opacity-90">
-                                    <li>Simpan di tempat sejuk dan terhindar sinar matahari langsung.</li>
-                                    <li>Daya simpan ±3 bulan setelah tanggal produksi.</li>
-                                    <li>Bukan untuk dikonsumsi manusia. Hindari kontak mata/luka terbuka.</li>
-                                </ul>
                             </div>
                         </div>
                     </div>
@@ -313,152 +283,88 @@
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <div class="inline-block bg-blue-100 text-blue-800 font-semibold px-4 py-1.5 rounded-full text-sm mb-4">Tim Pengusul P2MW UNNES</div>
                 <h2 class="text-3xl font-bold text-slate-800 mb-4">Inovator Di Balik INFERBIKAN</h2>
-                <p class="text-slate-600 text-lg">Dikembangkan oleh kolaborasi lintas fakultas mahasiswa Universitas Negeri Semarang untuk mendukung pembudidaya lokal.</p>
             </div>
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
                 <!-- Member 1 -->
-                <div class="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
-                    <div class="w-20 h-20 mx-auto bg-slate-200 rounded-full mb-4 border-4 border-teal-50 flex items-center justify-center overflow-hidden">
+                <div class="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-100">
+                    <div class="w-20 h-20 mx-auto bg-slate-200 rounded-full mb-4 flex items-center justify-center overflow-hidden">
                         <span class="text-2xl text-slate-400 font-bold">A</span>
                     </div>
                     <h4 class="font-bold text-slate-800 mb-1">Albertus Haryo S</h4>
-                    <p class="text-teal-600 font-semibold text-sm mb-2">CEO</p>
-                    <div class="text-xs text-slate-500 bg-slate-50 py-1 px-2 rounded mt-2">Ilmu Hukum</div>
+                    <p class="text-teal-600 font-semibold text-sm">CEO</p>
                 </div>
                 <!-- Member 2 -->
-                <div class="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
-                    <div class="w-20 h-20 mx-auto bg-slate-200 rounded-full mb-4 border-4 border-teal-50 flex items-center justify-center overflow-hidden">
+                <div class="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-100">
+                    <div class="w-20 h-20 mx-auto bg-slate-200 rounded-full mb-4 flex items-center justify-center overflow-hidden">
                         <span class="text-2xl text-slate-400 font-bold">K</span>
                     </div>
                     <h4 class="font-bold text-slate-800 mb-1">Khevin Abdillah</h4>
-                    <p class="text-teal-600 font-semibold text-sm mb-2">CAO</p>
-                    <div class="text-xs text-slate-500 bg-slate-50 py-1 px-2 rounded mt-2">Ilmu Hukum</div>
+                    <p class="text-teal-600 font-semibold text-sm">CAO</p>
                 </div>
                 <!-- Member 3 -->
-                <div class="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
-                    <div class="w-20 h-20 mx-auto bg-slate-200 rounded-full mb-4 border-4 border-teal-50 flex items-center justify-center overflow-hidden">
+                <div class="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-100">
+                    <div class="w-20 h-20 mx-auto bg-slate-200 rounded-full mb-4 flex items-center justify-center overflow-hidden">
                         <span class="text-2xl text-slate-400 font-bold">S</span>
                     </div>
                     <h4 class="font-bold text-slate-800 mb-1">Salwa Nur Aliya</h4>
-                    <p class="text-teal-600 font-semibold text-sm mb-2">CPO</p>
-                    <div class="text-xs text-slate-500 bg-slate-50 py-1 px-2 rounded mt-2">Ilmu Lingkungan</div>
+                    <p class="text-teal-600 font-semibold text-sm">CPO</p>
                 </div>
                 <!-- Member 4 -->
-                <div class="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
-                    <div class="w-20 h-20 mx-auto bg-slate-200 rounded-full mb-4 border-4 border-teal-50 flex items-center justify-center overflow-hidden">
+                <div class="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-100">
+                    <div class="w-20 h-20 mx-auto bg-slate-200 rounded-full mb-4 flex items-center justify-center overflow-hidden">
                         <span class="text-2xl text-slate-400 font-bold">A</span>
                     </div>
                     <h4 class="font-bold text-slate-800 mb-1">A. Salman Al-Farisy</h4>
-                    <p class="text-teal-600 font-semibold text-sm mb-2">CFO</p>
-                    <div class="text-xs text-slate-500 bg-slate-50 py-1 px-2 rounded mt-2">Akuntansi</div>
+                    <p class="text-teal-600 font-semibold text-sm">CFO</p>
                 </div>
                 <!-- Member 5 -->
-                <div class="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
-                    <div class="w-20 h-20 mx-auto bg-slate-200 rounded-full mb-4 border-4 border-teal-50 flex items-center justify-center overflow-hidden">
+                <div class="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-100">
+                    <div class="w-20 h-20 mx-auto bg-slate-200 rounded-full mb-4 flex items-center justify-center overflow-hidden">
                         <span class="text-2xl text-slate-400 font-bold">S</span>
                     </div>
                     <h4 class="font-bold text-slate-800 mb-1">Saladin Zul Shidqy</h4>
-                    <p class="text-teal-600 font-semibold text-sm mb-2">CMO</p>
-                    <div class="text-xs text-slate-500 bg-slate-50 py-1 px-2 rounded mt-2">Ilmu Hukum</div>
+                    <p class="text-teal-600 font-semibold text-sm">CMO</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="bg-slate-900 py-20">
-        <div class="max-w-4xl mx-auto px-4 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Siap Meningkatkan Hasil Panen Kolam Anda?</h2>
-            <p class="text-slate-300 text-lg mb-10">Beralih ke solusi organik sekarang. Kurangi biaya bahan kimia, tingkatkan kualitas air, dan jaga kesehatan ikan Anda dengan INFERBIKAN.</p>
-            <a href="https://id.shp.ee/uHJUGs7u" target="_blank" rel="noreferrer" class="inline-block bg-teal-500 hover:bg-teal-400 text-white px-10 py-4 rounded-full font-bold text-xl transition-transform transform hover:scale-105 shadow-xl">
-                Pesan INFERBIKAN Sekarang
-            </a>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-3 gap-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left">
+            <div class="grid md:grid-cols-2 gap-10">
                 <div>
-                    <div class="flex items-center gap-2 mb-4">
+                    <div class="flex items-center justify-center md:justify-start gap-2 mb-4">
                         <i data-lucide="fish" class="h-6 w-6 text-teal-500"></i>
                         <span class="font-bold text-xl text-white">INFERBIKAN</span>
                     </div>
-                    <p class="text-sm mb-4">Pupuk Cair Fermentasi Berbahan Daun Pepaya dan Kencur. Inovasi mahasiswa UNNES untuk perikanan budidaya Indonesia yang lebih baik dan berkelanjutan.</p>
-                    <p class="text-xs text-slate-500">Jl. Pawiyatan Luhur Selatan III, Bendan Duwur, Kota Semarang, Jawa Tengah 50228</p>
+                    <p class="text-sm">Inovasi mahasiswa UNNES untuk perikanan berkelanjutan.</p>
                 </div>
-                
-                <div>
-                    <h4 class="text-white font-bold mb-4">Tautan Cepat</h4>
-                    <ul class="space-y-2 text-sm">
-                        <li><a href="#home" class="hover:text-teal-400">Beranda</a></li>
-                        <li><a href="#masalah" class="hover:text-teal-400">Solusi</a></li>
-                        <li><a href="#keunggulan" class="hover:text-teal-400">Keunggulan</a></li>
-                        <li><a href="#produk" class="hover:text-teal-400">Aturan Pakai</a></li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h4 class="text-white font-bold mb-4">Hubungi Kami</h4>
-                    <ul class="space-y-3 text-sm">
-                        <li class="flex items-center gap-2">
-                            <i data-lucide="phone" class="w-4 h-4 text-teal-500"></i>
-                            <a href="https://wa.me/6281225157325" target="_blank" rel="noreferrer" class="hover:text-white">0812-2515-7325</a>
-                        </li>
-                        <li class="flex items-center gap-2">
-                            <i data-lucide="instagram" class="w-4 h-4 text-teal-500"></i>
-                            <a href="https://instagram.com/inferbikanofficial" target="_blank" rel="noreferrer" class="hover:text-white">@inferbikanofficial</a>
-                        </li>
-                        <li class="flex items-center gap-2">
-                            <i data-lucide="shopping-cart" class="w-4 h-4 text-teal-500"></i>
-                            <a href="https://id.shp.ee/uHJUGs7u" target="_blank" rel="noreferrer" class="hover:text-white">Shopee: pupuk_inferbikan</a>
-                        </li>
-                    </ul>
+                <div class="flex justify-center md:justify-end gap-6">
+                    <a href="https://wa.me/6281225157325" class="hover:text-white flex items-center gap-2"><i data-lucide="phone" class="w-4 h-4"></i> WhatsApp</a>
+                    <a href="https://instagram.com/inferbikanofficial" class="hover:text-white flex items-center gap-2"><i data-lucide="instagram" class="w-4 h-4"></i> Instagram</a>
                 </div>
             </div>
-            
-            <div class="border-t border-slate-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                <p class="text-xs text-slate-500">&copy; 2026 Tim P2MW INFERBIKAN - Universitas Negeri Semarang. All rights reserved.</p>
-                <div class="text-xs text-slate-600 bg-slate-900 px-3 py-1 rounded border border-slate-800">
-                    Mendukung Program GEMARIKAN & Blue Economy
-                </div>
+            <div class="border-t border-slate-800 mt-8 pt-8 text-xs text-center">
+                &copy; 2026 Tim P2MW INFERBIKAN - Universitas Negeri Semarang.
             </div>
         </div>
     </footer>
 
     <!-- Scripts -->
     <script>
-        // Inisialisasi icon Lucide
         lucide.createIcons();
-
-        // Script Menu Mobile
         const menuBtn = document.getElementById('menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
         const menuIcon = document.getElementById('menu-icon');
         let isMenuOpen = false;
 
-        function toggleMenu() {
+        menuBtn.addEventListener('click', () => {
             isMenuOpen = !isMenuOpen;
-            if (isMenuOpen) {
-                mobileMenu.classList.remove('hidden');
-                menuIcon.setAttribute('data-lucide', 'x');
-            } else {
-                mobileMenu.classList.add('hidden');
-                menuIcon.setAttribute('data-lucide', 'menu');
-            }
-            lucide.createIcons(); // render ulang icon karena tag-nya ditimpa SVG
-        }
-
-        menuBtn.addEventListener('click', toggleMenu);
-
-        // Tutup menu jika link di mobile menu diklik
-        const mobileLinks = document.querySelectorAll('.mobile-link');
-        mobileLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                if(isMenuOpen) toggleMenu();
-            });
+            mobileMenu.classList.toggle('hidden');
+            menuIcon.setAttribute('data-lucide', isMenuOpen ? 'x' : 'menu');
+            lucide.createIcons();
         });
     </script>
 </body>
